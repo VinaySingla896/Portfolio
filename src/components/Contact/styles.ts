@@ -42,10 +42,7 @@ export const Container = styled.section`
         font-weight: 500;
       }
       &:hover{
-        background-color: var(--pink);
-        a{
-          color: #FFF;
-        }
+        filter: brightness(0.8);
       }
     }
   }

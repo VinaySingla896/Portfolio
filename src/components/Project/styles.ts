@@ -1,4 +1,5 @@
 import styled from "styled-components";
+
 export const Container = styled.section`
   margin-top: 15rem;
   
@@ -20,18 +21,34 @@ export const Container = styled.section`
 
     .project {
       padding: 2rem 1.8rem;
-      background-color: #2b2b2b;
+      background-color: #2b2b2b; // Dark mode background
       border-radius: 1.2rem;
       transition: 0.25s;
       display: flex;
       flex-direction: column;
       height: 100%;
       color: #FFF;
-     min-height: 0; /* Fix for flex item overflow */
+      min-height: 0;
 
       &:hover {
         transform: translateY(-5px);
         background-color: var(--pink);
+      }
+
+      /* Light mode styles */
+      html.light & {
+        background-color: var(--light-grey); // Light grey background for light mode
+        color: var(--black);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        
+        &:hover {
+          filter: brightness(0.8);
+          
+          p a {
+            color: var(--black);
+            border-bottom-color: var(--black);
+          }
+        }
       }
 
       header {
@@ -68,17 +85,28 @@ export const Container = styled.section`
         margin-bottom: 2rem;
         word-wrap: break-word;
         font-size: 1.6rem;
+        
         @media (max-width: 480px) {
           font-size: 1.4rem;
           margin-bottom: 1.5rem;
         }
 
         a {
-          color: #FFFF;
+          color: #FFF;
           border-bottom: 1px solid var(--green);
           transition: color 0.25s;
+          
+          html.light & {
+            color: var(--blue);
+            border-bottom-color: var(--blue);
+          }
+
           &:hover {
             color: var(--green);
+            
+            html.light & {
+              color: var(--pink);
+            }
           }
         }
       }
@@ -92,6 +120,12 @@ export const Container = styled.section`
           font-size: 1.4rem;
           opacity: 0.6;
           flex-wrap: wrap;
+          
+          html.light & {
+            color: var(--black);
+            opacity: 0.8;
+          }
+          
           @media (max-width: 480px) {
             gap: 1rem;
             font-size: 1.2rem;
