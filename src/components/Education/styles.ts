@@ -253,6 +253,7 @@ export const TimelineDot = styled.div`
   top: 30px;
   right: -45px;
   z-index: 2;
+  dispay:None;
 
   @media (max-width: 768px) {
     /* Position the dot near the left timeline bar */
