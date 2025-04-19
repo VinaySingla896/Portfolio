@@ -9,7 +9,32 @@ import whatsapp from '../../assets/whatsapp.svg'
 import emailIcon from '../../assets/email-icon2.svg'
 import Hello from '../../assets/Hello.gif'
 import telegram from '../../assets/telegram.svg'
+
 export function Hero() {
+  // Add this function to calculate experience duration
+  const calculateExperience = () => {
+    const startDate = new Date(2024, 8, 1); // Month is 0-indexed, so 8 = September
+    const currentDate = new Date();
+    
+    let years = currentDate.getFullYear() - startDate.getFullYear();
+    let months = currentDate.getMonth() - startDate.getMonth();
+    
+    // Adjust years and months if current month is earlier in the year than start month
+    if (months < 0) {
+      years--;
+      months += 12;
+    }
+    
+    // Format the experience string
+    if (years === 0) {
+      return `${months} month${months !== 1 ? 's' : ''} of Experience`;
+    } else if (months === 0) {
+      return `${years} year${years !== 1 ? 's' : ''} of Experience`;
+    } else {
+      return `${years} year${years !== 1 ? 's' : ''} and ${months} month${months !== 1 ? 's' : ''} of Experience`;
+    }
+  };
+
   return (
     <Container id="home">
       <div className="hero-text">
@@ -23,7 +48,7 @@ export function Hero() {
           <h3>Software Developer</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">6 months of Experience</p>
+          <p className="small-resume">{calculateExperience()}</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
           <BrowserRouter>
