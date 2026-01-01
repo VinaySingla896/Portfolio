@@ -15,7 +15,7 @@ export function Education() {
               <DateText>Sep 2021 - June 2025</DateText>
               <h3>Bachelor of Engineering in Computer Science</h3>
               <p>Chitkara University, Punjab</p>
-              <span className="grade">CGPA: 9.66/10</span>
+              <span className="grade">CGPA: 9.64/10</span>
               <TimelineDot />
             </TimelineContent>
           </ScrollAnimation>
