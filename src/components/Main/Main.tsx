@@ -18,6 +18,7 @@ import QuickbooksIcon from "../../assets/quickbooks-1.svg";
 import LangChainIcon from "../../assets/langchain-color.svg";
 import OpenAIIcon from "../../assets/openai-icon.svg";
 import { Education } from "../Education/Education";
+import { Experience } from "../Experience/Experience";
 
 export function Main() {
   return (
@@ -260,6 +261,7 @@ export function Main() {
       />
       <Hero></Hero>
       <About></About>
+      <Experience></Experience>
       <Project></Project>
       <Education></Education>
       <Contact></Contact>

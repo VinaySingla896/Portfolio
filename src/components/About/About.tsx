@@ -22,15 +22,7 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I’m Vinay, a software engineer passionate about building
-            scalable solutions and user-friendly web applications. Proficient in
-            Python, JavaScript, FastAPI, and React, I hold a Bachelor’s in
-            Computer Science from Chitkara University (GPA: 9.66/10). At
-            WizCommerce, I engineered a backend system using FastAPI and
-            PostgreSQL to automate data mapping for platforms like Shopify,
-            reducing client onboarding time by 40% and eliminating manual code
-            changes. My work revolves around simplifying complexity through
-            clean, efficient code.
+          I’m a backend-focused Software Development Engineer with strong foundations in data structures, algorithms, and object-oriented design. I have hands-on experience building scalable, production-grade backend services, distributed integrations, and data pipelines using Python, Java, FastAPI, and PostgreSQL.
           </p>
         </ScrollAnimation>
         <ScrollAnimation
@@ -39,22 +31,12 @@ export function About() {
           style={{ marginTop: "2rem", marginBottom: "2rem" }}
         >
           <p>
-            I’ve developed projects like Dr. Tech, a health-tech platform
-            featuring AI-driven symptom analysis and a blood donor network built
-            with the MERN stack. Recognized for my problem-solving skills, I
-            ranked 86th globally in Coding Ninja’s World Cup and solved 350+
-            data structure challenges on LeetCode. From REST APIs to cloud
-            databases, I blend technical rigor with creativity to deliver tools
-            that make a tangible impact.
+          At a fast-paced B2B startup, I’ve owned end-to-end features—from designing APIs and integration workflows to ensuring reliability through logging, retries, and fault-tolerant systems. I enjoy working in ambiguous problem spaces, collaborating across teams, and turning complex requirements into simple, reliable software. I’m motivated by building systems that scale and deliver real-world impact.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            If you need a developer to streamline workflows, build scalable
-            apps, or modernize your tech stack, let’s connect! I’m committed to
-            turning your vision into reality with adaptable, future-ready
-            solutions. Reach out—I’d love to collaborate and create something
-            meaningful together.
+          If you’re looking for a developer to streamline workflows, build scalable applications, or modernize your tech stack with AI-driven solutions, let’s connect. I specialize in creating reliable, future-ready systems by combining strong backend engineering with practical AI integrations. Reach out—I’d love to collaborate and turn your ideas into impactful, real-world solutions.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
