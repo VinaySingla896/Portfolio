@@ -12,13 +12,13 @@ export function Experience() {
         <TimelineItem>
           <ScrollAnimation animateIn="fadeIn">
             <TimelineContent side="left">
-              <DateText>Jul 2025 – Present</DateText>
+              <DateText>Jul 2025 – Jul 2026</DateText>
               <h3>Software Development Engineer I</h3>
               <p>WizCommerce · Bengaluru, India</p>
               <span className="grade">
-                Own end-to-end backend systems for third-party integrations, including
+                Owned end-to-end backend systems for third-party integrations, including
                 designing distributed sync services, scalable APIs, and centralized
-                logging frameworks. Lead feature ownership from design to production,
+                logging frameworks. Led feature ownership from design to production,
                 improving system reliability and reducing operational support overhead.
               </span>
               <TimelineDot />

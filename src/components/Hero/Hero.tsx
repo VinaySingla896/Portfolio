@@ -14,8 +14,9 @@ export function Hero() {
   // Add this function to calculate experience duration
   const calculateExperience = () => {
     const startDate = new Date(2024, 8, 1); // Month is 0-indexed, so 8 = September
-    const currentDate = new Date();
-    
+    const employmentEndDate = new Date(2026, 6, 31); // Employment ended July 2026
+    const currentDate = new Date() > employmentEndDate ? employmentEndDate : new Date();
+
     let years = currentDate.getFullYear() - startDate.getFullYear();
     let months = currentDate.getMonth() - startDate.getMonth();
     
