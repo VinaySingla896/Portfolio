@@ -16,11 +16,13 @@ export function Project() {
             <header>
               <svg width="50" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke="#23ce6b" strokeWidth="1" strokeLinecap="round" strokeLinejoin="round"> <title>Folder</title> <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path> </svg>
               <div className="project-links">
+                <a href="https://wizcommerce.com/integrations/" target="_blank" rel="noreferrer">
+                  <img src={externalLink} alt="Visit site" /></a>
                  </div>
             </header>
             <div className="body">
               <h3>Integration UI</h3>
-              <p> Worked on developing the backend for an Integration UI that automates data mapping with platforms like Shopify and QuickBooks, simplifying client onboarding. By enabling seamless data synchronization between external platforms and the database, I eliminated the need for manual custom code changes, making integrations more efficient. This automation significantly reduced onboarding time for new clients by streamlining data integration processes. </p>
+              <p> Worked on developing the Integration UI that automates data mapping with platforms like Shopify and QuickBooks, simplifying client onboarding. By enabling seamless data synchronization between external platforms and the database, I eliminated the need for manual custom code changes, making integrations more efficient. This automation significantly reduced onboarding time for new clients by streamlining data integration processes. </p>
             </div>
             <footer> <ul className="tech-list"> <li>Python</li> <li>FastAPI</li> <li>Shopify</li><li>Quickbooks</li><li>PostgreSQL</li> </ul> </footer>
           </div>
