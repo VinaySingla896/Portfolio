@@ -13,7 +13,6 @@ import typescriptIcon from "../../assets/typescript-icon.svg";
 import postgreSQLIcon from "../../assets/postgresql.svg";
 import PythonIcon from "../../assets/python-5.svg";
 import TailwindCSSIcon from "../../assets/tailwind-css-icon.svg";
-import ScrollAnimation from "react-animate-on-scroll";
 import QuickbooksIcon from "../../assets/quickbooks-1.svg";
 import LangChainIcon from "../../assets/langchain-color.svg";
 import OpenAIIcon from "../../assets/openai-icon.svg";
